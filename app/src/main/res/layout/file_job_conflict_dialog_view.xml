@@ -42,7 +42,7 @@
                 android:layout_height="@dimen/large_icon_size"
                 android:scaleType="centerCrop" />
 
-            <me.zhanghai.android.files.ui.DisabledAlphaImageView
+            <sk.kra.files.ui.DisabledAlphaImageView
                 android:id="@+id/targetAppIconBadgeImage"
                 android:layout_width="@dimen/badge_size_plus_1dp"
                 android:layout_height="@dimen/badge_size_plus_1dp"
@@ -118,7 +118,7 @@
                 android:layout_height="@dimen/large_icon_size"
                 android:scaleType="centerCrop" />
 
-            <me.zhanghai.android.files.ui.DisabledAlphaImageView
+            <sk.kra.files.ui.DisabledAlphaImageView
                 android:id="@+id/sourceAppIconBadgeImage"
                 android:layout_width="@dimen/badge_size_plus_1dp"
                 android:layout_height="@dimen/badge_size_plus_1dp"

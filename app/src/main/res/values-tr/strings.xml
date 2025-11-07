@@ -543,7 +543,4 @@
     <string name="about_licenses_title">Lisanslar</string>
     <string name="about_privacy_policy_title">Gizlilik politikası</string>
     <string name="about_author_title">Yazar</string>
-    <string name="about_author_name_title">Hai Zhang</string>
-    <string name="about_author_github_title">GitHub\'da takip edin</string>
-    <string name="about_author_twitter_title">Twitter\'da takip edin</string>
 </resources>

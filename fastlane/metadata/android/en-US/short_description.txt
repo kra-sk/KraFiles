@@ -1,1 +1,1 @@
-Open source Material Design file manager
+Open source Android file manager

@@ -7,7 +7,7 @@
 
 <resources>
 
-    <string name="app_name">Material Files</string>
+    <string name="app_name">KRA Files</string>
 
     <string name="close">Bezárás</string>
     <string name="copy">Másolás</string>
@@ -571,7 +571,5 @@
     <string name="about_licenses_title">Licencek</string>
     <string name="about_privacy_policy_title">Adatvédelmi nyilatkozat</string>
     <string name="about_author_title">Szerző</string>
-    <string name="about_author_name_title">Hai Zhang</string>
-    <string name="about_author_github_title">Követés a GitHubon</string>
-    <string name="about_author_twitter_title">Követés Twitteren</string>
+    <string name="about_author_credits_title">Zhang Hai MaterialFiles alapján</string>
 </resources>

@@ -7,7 +7,7 @@
 
 <resources>
 
-    <string name="app_name">Material Files</string>
+    <string name="app_name">KRA Files</string>
 
     <string name="close">Sulje</string>
     <string name="copy">Kopioi</string>
@@ -554,7 +554,4 @@
     <string name="about_licenses_title">Lisenssit</string>
     <string name="about_privacy_policy_title">Tietosuojaseloste</string>
     <string name="about_author_title">Tekijä</string>
-    <string name="about_author_name_title">Hai Zhang</string>
-    <string name="about_author_github_title">Seuraa GitHubissa</string>
-    <string name="about_author_twitter_title">Seuraa Twitterissä</string>
 </resources>

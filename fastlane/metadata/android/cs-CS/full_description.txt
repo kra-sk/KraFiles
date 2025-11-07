@@ -1,0 +1,17 @@
+Správce súborů pro Android
+
+Založené na aplikaci Material Files od Kai Zhang
+
+Vlastnosti:
+- oficiální androidový klient pro úložisko kra.sk
+- open source: lehké, čisté a bezpečné
+- vzhled Material Design
+- lehká navigace v súborech s pomocí Breadcrumbs
+- podpora root
+- podpora otevírání a úpravy archívních souborů
+- podpora externích úložísk: FTP, SFTP, SMB a WebDAV
+- nastavitelné farby a noční módus s černou
+- používa linuxové system calls
+- podpora symbolických odkazů, souborových oprávnení a SELinux-u
+
+https://github.com/kra-sk/KraFiles

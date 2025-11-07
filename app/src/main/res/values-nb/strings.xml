@@ -670,7 +670,4 @@
     <string name="about_licenses_title">Lisenser</string>
     <string name="about_privacy_policy_title">Personvernregler</string>
     <string name="about_author_title">Utvikler</string>
-    <string name="about_author_name_title">Hai Zhang</string>
-    <string name="about_author_github_title">Følg på GitHub</string>
-    <string name="about_author_twitter_title">Følg på Twitter</string>
 </resources>

@@ -5,14 +5,14 @@
   ~ All Rights Reserved.
   -->
 
-<me.zhanghai.android.files.ui.ReadOnlyTextInputLayout
+<sk.kra.files.ui.ReadOnlyTextInputLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:id="@+id/textInputLayout"
     android:layout_width="match_parent"
     android:layout_height="wrap_content">
 
-    <me.zhanghai.android.files.ui.ReadOnlyTextInputEditText
+    <sk.kra.files.ui.ReadOnlyTextInputEditText
         android:id="@+id/text"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
-</me.zhanghai.android.files.ui.ReadOnlyTextInputLayout>
+</sk.kra.files.ui.ReadOnlyTextInputLayout>

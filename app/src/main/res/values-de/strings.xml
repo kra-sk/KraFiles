@@ -7,7 +7,7 @@
 
 <resources>
 
-    <string name="app_name">Material Files</string>
+    <string name="app_name">KRA Files</string>
 
     <string name="close">Schließen</string>
     <string name="copy">Kopieren</string>
@@ -670,7 +670,6 @@
     <string name="about_licenses_title">Lizenzen</string>
     <string name="about_privacy_policy_title">Datenschutzerklärung</string>
     <string name="about_author_title">Autor</string>
-    <string name="about_author_name_title">Hai Zhang</string>
-    <string name="about_author_github_title">Auf GitHub folgen</string>
-    <string name="about_author_twitter_title">Auf Twitter folgen</string>
+    <string name="about_author_name_title">Copyright (c) 2025 Kráska s.r.o.</string>
+    <string name="about_author_credits_title">basiert auf MaterialFiles von Hai Zhang</string>
 </resources>

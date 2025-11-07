@@ -9,7 +9,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     tools:ignore="ImpliedQuantity">
 
-    <string name="app_name">Material Files</string>
+    <string name="app_name">KRA Files</string>
 
     <string name="close">Fechar</string>
     <string name="copy">Copiar</string>
@@ -628,7 +628,5 @@
     <string name="about_licenses_title">Licenças</string>
     <string name="about_privacy_policy_title">Política de privacidade</string>
     <string name="about_author_title">Autor</string>
-    <string name="about_author_name_title">Hai Zhang</string>
-    <string name="about_author_github_title">Siga no GitHub</string>
-    <string name="about_author_twitter_title">Siga no Twitter</string>
+    <string name="about_author_credits_title">Baseado em MaterialFiles de Hai Zhang</string>
 </resources>

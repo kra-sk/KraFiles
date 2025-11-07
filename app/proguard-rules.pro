@@ -27,15 +27,15 @@
 }
 
 # App
--keep class me.zhanghai.android.files.** implements androidx.appcompat.view.CollapsibleActionView { *; }
--keep class me.zhanghai.android.files.provider.common.ByteString { *; }
--keep class me.zhanghai.android.files.provider.linux.syscall.** { *; }
+-keep class sk.kra.files.** implements androidx.appcompat.view.CollapsibleActionView { *; }
+-keep class sk.kra.files.provider.common.ByteString { *; }
+-keep class sk.kra.files.provider.linux.syscall.** { *; }
 -keepnames class * extends java.lang.Exception
 # For Class.getEnumConstants()
 -keepclassmembers enum * {
     public static **[] values();
 }
--keepnames class me.zhanghai.android.files.** implements android.os.Parcelable
+-keepnames class sk.kra.files.** implements android.os.Parcelable
 
 # Apache FtpServer
 -keepclassmembers class * implements org.apache.mina.core.service.IoProcessor {
@@ -55,3 +55,37 @@
 
 # SMBJ-RPC
 -dontwarn java.rmi.UnmarshalException
+
+# KRA Provider
+# Keep KRA API models (used with Gson)
+-keep class sk.kra.files.provider.kra.client.** { *; }
+-keepclassmembers class sk.kra.files.provider.kra.client.** {
+    <fields>;
+    <init>(...);
+}
+
+# OkHttp
+-dontwarn okhttp3.**
+-dontwarn okio.**
+-keep class okhttp3.** { *; }
+-keep interface okhttp3.** { *; }
+
+# Retrofit
+-dontwarn retrofit2.**
+-keep class retrofit2.** { *; }
+-keepattributes Signature
+-keepattributes Exceptions
+
+# Gson
+-keep class com.google.gson.** { *; }
+-keepattributes Signature
+-keepattributes *Annotation*
+-keep class * implements com.google.gson.TypeAdapter
+-keep class * implements com.google.gson.TypeAdapterFactory
+-keep class * implements com.google.gson.JsonSerializer
+-keep class * implements com.google.gson.JsonDeserializer
+
+# Keep KRA Parcelable classes
+-keep class sk.kra.files.provider.kra.KraPath { *; }
+-keep class sk.kra.files.provider.kra.KraFileSystem { *; }
+-keep class sk.kra.files.storage.KraServer { *; }

@@ -76,7 +76,7 @@ THEME_SUFFIXES=(
 )
 CUSTOM_THEMES_XML='../app/src/main/res/values/themes_custom.xml'
 CUSTOM_THEMES_NIGHT_XML='../app/src/main/res/values-night/themes_custom.xml'
-CUSTOM_THEME_COLOR_KT='../app/src/main/java/me/zhanghai/android/files/theme/custom/ThemeColor.kt'
+CUSTOM_THEME_COLOR_KT='../app/src/main/java/sk/kra/files/theme/custom/ThemeColor.kt'
 
 cat >"${CUSTOM_COLORS_XML}" <<EOF
 <?xml version="1.0" encoding="utf-8"?>
@@ -174,10 +174,10 @@ cat >>"${CUSTOM_THEMES_NIGHT_XML}" <<EOF
 EOF
 
 cat >"${CUSTOM_THEME_COLOR_KT}" <<EOF
-package me.zhanghai.android.files.theme.custom
+package sk.kra.files.theme.custom
 
 import androidx.annotation.ColorRes
-import me.zhanghai.android.files.R
+import sk.kra.files.R
 
 enum class ThemeColor(@ColorRes val resourceId: Int) {
 EOF

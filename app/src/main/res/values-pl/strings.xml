@@ -7,7 +7,7 @@
 
 <resources>
 
-    <string name="app_name">Material Files</string>
+    <string name="app_name">KRA Files</string>
 
     <string name="close">Zamknij</string>
     <string name="copy">Kopiuj</string>
@@ -669,7 +669,7 @@
     <string name="ftp_server_configuration_title">Konfiguracja</string>
     <string name="ftp_server_anonymous_login_title">Logowanie anonimowe</string>
     <string name="ftp_server_username_title">Nazwa użytkownika</string>
-    <string name="ftp_server_password_title">Hasło</string>
+    <string name="ftp_server_password_title">Hasło</string>G
     <string name="ftp_server_port_title">Port</string>
     <string name="ftp_server_home_directory_title">Katalog główny</string>
     <string name="ftp_server_writable_title">Zezwól na zapis</string>
@@ -732,7 +732,5 @@
     <string name="about_licenses_title">Licencje</string>
     <string name="about_privacy_policy_title">Polityka prywatności</string>
     <string name="about_author_title">Autor</string>
-    <string name="about_author_name_title">Hai Zhang</string>
-    <string name="about_author_github_title">Obserwuj na GitHubie</string>
-    <string name="about_author_twitter_title">Obserwuj na Twitterze</string>
+    <string name="about_author_credits_title">Na podstawie MaterialFiles Zhang Hai</string>
 </resources>

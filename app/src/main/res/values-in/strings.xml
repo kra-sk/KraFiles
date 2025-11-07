@@ -7,7 +7,7 @@
 
 <resources>
 
-    <string name="app_name">Material Files</string>
+    <string name="app_name">KRA Files</string>
 
     <string name="close">Tutup</string>
     <string name="copy">Salin</string>
@@ -554,7 +554,4 @@
     <string name="about_licenses_title">Lisensi</string>
     <string name="about_privacy_policy_title">Kebijakan privasi</string>
     <string name="about_author_title">Pengembang</string>
-    <string name="about_author_name_title">Hai Zhang</string>
-    <string name="about_author_github_title">Ikuti di GitHub</string>
-    <string name="about_author_twitter_title">Ikuti di Twitter</string>
 </resources>

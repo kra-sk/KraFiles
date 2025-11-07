@@ -32,7 +32,7 @@
         android:textAppearance="?textAppearanceListItemSecondary"
         android:textColor="?android:textColorSecondary" />
 
-    <me.zhanghai.android.files.ui.AutoGoneTextView
+    <sk.kra.files.ui.AutoGoneTextView
         android:id="@+id/descriptionText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"

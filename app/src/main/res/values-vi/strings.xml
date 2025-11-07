@@ -7,7 +7,7 @@
 
 <resources>
 
-    <string name="app_name">Material Files</string>
+    <string name="app_name">KRA Files</string>
 
     <string name="close">Đóng</string>
     <string name="copy">Sao chép</string>
@@ -533,7 +533,4 @@
     <string name="about_licenses_title">Giấy phép</string>
     <string name="about_privacy_policy_title">Chính sách riêng tư</string>
     <string name="about_author_title">Tác giả</string>
-    <string name="about_author_name_title">Hai Zhang</string>
-    <string name="about_author_github_title">Theo dõi trên GitHub</string>
-    <string name="about_author_twitter_title">Theo dõi trên Twitter</string>
 </resources>

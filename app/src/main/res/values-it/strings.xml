@@ -7,7 +7,7 @@
 
 <resources>
 
-    <string name="app_name">Material Files</string>
+    <string name="app_name">KRA Files</string>
 
     <string name="close">Chiudi</string>
     <string name="copy">Copia</string>
@@ -701,7 +701,4 @@
     <string name="about_licenses_title">Licenze</string>
     <string name="about_privacy_policy_title">Informativa sulla privacy</string>
     <string name="about_author_title">Autore</string>
-    <string name="about_author_name_title">Hai Zhang</string>
-    <string name="about_author_github_title">Segui su GitHub</string>
-    <string name="about_author_twitter_title">Segui su Twitter</string>
 </resources>

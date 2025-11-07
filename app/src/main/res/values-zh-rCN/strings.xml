@@ -640,7 +640,5 @@
     <string name="about_licenses_title">许可证</string>
     <string name="about_privacy_policy_title">隐私权政策</string>
     <string name="about_author_title">作者</string>
-    <string name="about_author_name_title">张海</string>
-    <string name="about_author_github_title">在 GitHub 上关注</string>
-    <string name="about_author_twitter_title">在 Twitter 上关注</string>
+    <string name="about_author_credits_title">基于 张海 的 MaterialFiles</string>
 </resources>

@@ -670,7 +670,4 @@
     <string name="about_licenses_title">Licenties</string>
     <string name="about_privacy_policy_title">Privacybeleid</string>
     <string name="about_author_title">Maker</string>
-    <string name="about_author_name_title">Hai Zhang</string>
-    <string name="about_author_github_title">Volgen op GitHub</string>
-    <string name="about_author_twitter_title">Volgen op Twitter</string>
 </resources>

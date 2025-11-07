@@ -1,0 +1,725 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+  ~ Copyright (c) 2025 Kraska s.r.o. <dev@kra.sk> 
+  ~ Copyright (c) 2018 Hai Zhang <dreaming.in.code.zh@gmail.com>
+  ~ All Rights Reserved.
+  -->
+
+<resources>
+
+    <string name="app_name">KRA Files</string>
+
+    <string name="close">Zavrieť</string>
+    <string name="copy">Kopírovať</string>
+    <string name="cut">Vystrihnúť</string>
+    <string name="default_">Predvolená</string>
+    <string name="delete">Zmazať</string>
+    <string name="discard">Zrušiť</string>
+    <string name="edit">Upraviť</string>
+    <string name="empty">Prázdny</string>
+    <string name="empty_placeholder">(Prázdny)</string>
+    <string name="error">Chyba</string>
+    <string name="hide">Skryť</string>
+    <string name="install">Nainštalovať</string>
+    <string name="keep_editing">Pokračovať v úpravách</string>
+    <string name="loading">Načítavanie…</string>
+    <string name="maybe_later">Možno neskôr</string>
+    <string name="merge">Zlúčiť</string>
+    <string name="none">Nič</string>
+    <string name="open_navigation_drawer">Otvoriť navigačný panel</string>
+    <string name="paste">Vložiť</string>
+    <string name="refresh">Obnoviť</string>
+    <string name="reload">Obnoviť</string>
+    <string name="remove">Odstrániť</string>
+    <string name="rename">Premenovať</string>
+    <string name="replace">Nahradiť</string>
+    <string name="reset">Resetovať</string>
+    <string name="retry">Skúsiť znova</string>
+    <string name="save">Uložiť</string>
+    <string name="search">Hľadať</string>
+    <string name="select">Vybrať</string>
+    <string name="select_all">Vybrať všetko</string>
+    <string name="share">Zdieľať</string>
+    <string name="show">Ukázať</string>
+    <string name="skip">Preskočiť</string>
+    <string name="stop">Zastaviť</string>
+    <string name="system_default">Predvolená systému</string>
+    <string name="unknown">Neznámy</string>
+    <string name="view">Zobrazenie</string>
+
+    <!-- android.R.string.app_not_found -->
+    <string name="activity_not_found">Nebola nájdená vhodná aplikácia pre túto akciu</string>
+    <string name="open_settings">Otvoriť nastavenia</string>
+    <string name="shortcut_created">Skratka bola vytvorená</string>
+
+    <plurals name="size_in_bytes_format">
+        <item quantity="one">%1$,d bajt</item>
+        <item quantity="few">%1$,d bajty</item>
+        <item quantity="many">%1$,d bajtov</item>
+        <item quantity="other">%1$,d bajtov</item>
+    </plurals>
+
+    <string name="all_files_access_rationale_message">Aplikácia potrebuje prístup na prácu so súbormi. Povoľte prístup v nasledujúcom systémovom dialógu, prosím.</string>
+    <!-- The allow button before Android 10 was in all-caps. -->
+    <string name="storage_permission_rationale_message">Aplikácia vyžaduje povolenie prístupu k súborom. V nasledujúcom dialógu kliknite na \"POVOLIŤ\", prosím.</string>
+    <string name="storage_permission_permanently_denied_message">Aplikácia potrebuje povolenie prístupu k súborom. Prosím udeľte povolenie \"Úložisko\" v nastaveniach.</string>
+    <!-- The allow button is in sentence case now. -->
+    <string name="notification_permission_rationale_message">Aplikácia potrebuje oprávnenie pre posielanie oznámení o operáciách so súbormi. Prosíme vyberte \"Povoliť\" v nasledujúcej výzve systému.</string>
+    <string name="notification_permission_permanently_denied_message">Aplikácia potrebuje oprávnenie pre posielanie oznámení o operáciách so súbormi. Prosíme udeľte oprávnenie \"Oznámenia\" v nastaveniach systému.</string>
+
+    <string name="notification_channel_background_activity_start_name">Akcie prebiehajú v pozadí</string>
+    <string name="notification_channel_background_activity_start_description">Podniknite kroky, keď aplikácia bežala na pozadí</string>
+    <string name="notification_channel_file_job_name">Operácie so súborom</string>
+    <string name="notification_channel_file_job_description">Zobraziť a ovládať operácie so súborom</string>
+    <string name="notification_channel_ftp_server_name">Server FTP</string>
+    <string name="notification_channel_ftp_server_description">Zobraziť a kontrolovať FTP server</string>
+
+    <string name="file_action_archive_password_title">Heslo vyžadované</string>
+    <string name="file_action_archive_password_message_format">\"%1$s\" je chránené heslom.</string>
+    <string name="file_action_archive_password_error_empty">Heslo nemôže byť prázdne</string>
+
+    <plurals name="file_job_archive_scan_notification_title_format">
+        <item quantity="one">Príprava na kompresiu %1$,d súboru (%2$s)</item>
+        <item quantity="few">Príprava na kompresiu %1$,d súborov (%2$s)</item>
+        <item quantity="many">Príprava na kompresiu %1$,d súborov (%2$s)</item>
+        <item quantity="other">Príprava na kompresiu %1$,d súborov (%2$s)</item>
+    </plurals>
+    <string name="file_job_archive_notification_title_one_format">Kompresia \"%1$s\" do \"%2$s\"</string>
+    <plurals name="file_job_archive_notification_title_multiple_format">
+        <item quantity="one">Kompresia %1$,d súboru do \"%2$s\"</item>
+        <item quantity="few">Kompresia %1$,d súborov do \"%2$s\"</item>
+        <item quantity="many">Kompresia %1$,d súborov do \"%2$s\"</item>
+        <item quantity="other">Kompresia %1$,d súborov do \"%2$s\"</item>
+    </plurals>
+    <plurals name="file_job_copy_scan_notification_title_format">
+        <item quantity="one">Príprava na kopírovanie %1$,d súboru (%2$s)</item>
+        <item quantity="few">Príprava na kopírovanie %1$,d súborov (%2$s)</item>
+        <item quantity="many">Príprava na kopírovanie %1$,d súborov (%2$s)</item>
+        <item quantity="other">Príprava na kopírovanie %1$,d súborov (%2$s)</item>
+    </plurals>
+    <string name="file_job_copy_notification_title_one_format">Kopírovanie \"%1$s\" do \"%2$s\"</string>
+    <plurals name="file_job_copy_notification_title_multiple_format">
+        <item quantity="one">Kopírovanie %1$,d súboru do \"%2$s\"</item>
+        <item quantity="few">Kopírovanie %1$,d súborov do \"%2$s\"</item>
+        <item quantity="many">Kopírovanie %1$,d súborov do \"%2$s\"</item>
+        <item quantity="other">Kopírovanie %1$,d súborov do \"%2$s\"</item>
+    </plurals>
+    <plurals name="file_job_extract_scan_notification_title_format">
+        <item quantity="one">Príprava na rozbalenie %1$,d súboru (%2$s)</item>
+        <item quantity="few">Príprava na rozbalenie %1$,d súborov (%2$s)</item>
+        <item quantity="many">Príprava na rozbalenie %1$,d súborov (%2$s)</item>
+        <item quantity="other">Príprava na rozbalenie %1$,d súborov (%2$s)</item>
+    </plurals>
+    <string name="file_job_extract_notification_title_one_format">Rozbaľovanie \"%1$s\" do \"%2$s\"</string>
+    <plurals name="file_job_extract_notification_title_multiple_format">
+        <item quantity="one">Rozbaľovanie %1$,d súboru do \"%2$s\"</item>
+        <item quantity="few">Rozbaľovanie %1$,d súborov do \"%2$s\"</item>
+        <item quantity="many">Rozbaľovanie %1$,d súborov do \"%2$s\"</item>
+        <item quantity="other">Rozbaľovanie %1$,d súborov do \"%2$s\"</item>
+    </plurals>
+    <plurals name="file_job_move_scan_notification_title_format">
+        <item quantity="one">Príprava na presun %1$,d súboru (%2$s)</item>
+        <item quantity="few">Príprava na presun %1$,d súborov (%2$s)</item>
+        <item quantity="many">Príprava na presun %1$,d súborov (%2$s)</item>
+        <item quantity="other">Príprava na presun %1$,d súborov (%2$s)</item>
+    </plurals>
+    <string name="file_job_move_notification_title_one_format">Presúvanie \"%1$s\" do \"%2$s\"</string>
+    <plurals name="file_job_move_notification_title_multiple_format">
+        <item quantity="one">Presúvanie %1$,d súboru do \"%2$s\"</item>
+        <item quantity="few">Presúvanie %1$,d súborov do \"%2$s\"</item>
+        <item quantity="many">Presúvanie %1$,d súborov do \"%2$s\"</item>
+        <item quantity="other">Presúvanie %1$,d súborov do \"%2$s\"</item>
+    </plurals>
+    <string name="file_job_transfer_size_notification_text_one_format">%1$s/%2$s</string>
+    <string name="file_job_transfer_size_notification_text_multiple_format">%1$,d / %2$,d</string>
+    <plurals name="file_job_delete_scan_notification_title_format">
+        <item quantity="one">Príprava na zmazanie %1$,d súboru</item>
+        <item quantity="few">Príprava na zmazanie %1$,d súborov</item>
+        <item quantity="many">Príprava na zmazanie %1$,d súborov</item>
+        <item quantity="other">Príprava na zmazanie %1$,d súborov</item>
+    </plurals>
+    <string name="file_job_delete_notification_title_one_format">Mazanie \"%1$s\"</string>
+    <plurals name="file_job_delete_notification_title_multiple_format">
+        <item quantity="one">Mazanie %1$,d súboru</item>
+        <item quantity="few">Mazanie %1$,d súborov</item>
+        <item quantity="many">Mazanie %1$,d súborov</item>
+        <item quantity="other">Mazanie %1$,d súborov</item>
+    </plurals>
+    <plurals name="file_job_set_owner_scan_notification_title_format">
+        <item quantity="one">Príprava na zmenu majiteľa %1$,d súboru</item>
+        <item quantity="few">Príprava na zmenu majiteľa %1$,d súborov</item>
+        <item quantity="many">Príprava na zmenu majiteľa %1$,d súborov</item>
+        <item quantity="other">Príprava na zmenu majiteľa %1$,d súborov</item>
+    </plurals>
+    <string name="file_job_set_owner_notification_title_one_format">Mením majiteľa pre \"%1$s\"</string>
+    <plurals name="file_job_set_owner_notification_title_multiple_format">
+        <item quantity="one">Zmena majiteľa pre %1$,d súbor</item>
+        <item quantity="few">Zmena majiteľa pre %1$,d súborov</item>
+        <item quantity="many">Zmena majiteľa pre %1$,d súborov</item>
+        <item quantity="other">Zmena majiteľa pre %1$,d súborov</item>
+    </plurals>
+    <plurals name="file_job_set_group_scan_notification_title_format">
+        <item quantity="one">Príprava na zmenu skupiny pre %1$,d súbor</item>
+        <item quantity="few">Príprava na zmenu skupiny pre %1$,d súborov</item>
+        <item quantity="many">Príprava na zmenu skupiny pre %1$,d súborov</item>
+        <item quantity="other">Príprava na zmenu skupiny pre %1$,d súborov</item>
+    </plurals>
+    <string name="file_job_set_group_notification_title_one_format">Zmena skupiny pre \"%1$s\"</string>
+    <plurals name="file_job_set_group_notification_title_multiple_format">
+        <item quantity="one">Zmena skupiny pre %1$,d súbor</item>
+        <item quantity="few">Zmena skupiny pre %1$,d súbory</item>
+        <item quantity="many">Zmena skupiny pre %1$,d súborov</item>
+        <item quantity="other">Zmena skupiny pre %1$,d súborov</item>
+    </plurals>
+    <plurals name="file_job_set_mode_scan_notification_title_format">
+        <item quantity="one">Príprava na zmenu režimu pre %1$,d súbor</item>
+        <item quantity="few">Príprava na zmenu režimu pre %1$,d súborov</item>
+        <item quantity="many">Príprava na zmenu režimu pre %1$,d súborov</item>
+        <item quantity="other">Príprava na zmenu režimu pre %1$,d súborov</item>
+    </plurals>
+    <string name="file_job_set_mode_notification_title_one_format">Zmena režimu pre \"%1$s\"</string>
+    <plurals name="file_job_set_mode_notification_title_multiple_format">
+        <item quantity="one">Zmena režimu pre %1$,d súbor</item>
+        <item quantity="few">Zmena režimu pre %1$,d súbory</item>
+        <item quantity="many">Zmena režimu pre %1$,d súborov</item>
+        <item quantity="other">Zmena režimu pre %1$,d súborov</item>
+    </plurals>
+    <plurals name="file_job_set_selinux_context_scan_notification_title_format">
+        <item quantity="one">Príprava na zmenu kontextu SELinuxu pre %1$,d súbor</item>
+        <item quantity="few">Príprava na zmenu kontextu SELinuxu pre %1$,d súborov</item>
+        <item quantity="many">Príprava na zmenu kontextu SELinuxu pre %1$,d súborov</item>
+        <item quantity="other">Príprava na zmenu kontextu SELinuxu pre %1$,d súborov</item>
+    </plurals>
+    <string name="file_job_set_selinux_context_notification_title_one_format">Zmena kontextu SELinuxu pre \"%1$s\"</string>
+    <plurals name="file_job_set_selinux_context_notification_title_multiple_format">
+        <item quantity="one">Zmena kontextu SELinuxu pre %1$,d súbor</item>
+        <item quantity="few">Zmena kontextu SELinuxu pre %1$,d súbory</item>
+        <item quantity="many">Zmena kontextu SELinuxu pre %1$,d súborov</item>
+        <item quantity="other">Zmena kontextu SELinuxu pre %1$,d súborov</item>
+    </plurals>
+    <plurals name="file_job_restore_selinux_context_scan_notification_title_format">
+        <item quantity="one">Príprava na obnovu kontextu SELinuxu pre %1$,d súbor</item>
+        <item quantity="few">Príprava na obnovu kontextu SELinuxu pre %1$,d súborov</item>
+        <item quantity="many">Príprava na obnovu kontextu SELinuxu pre %1$,d súborov</item>
+        <item quantity="other">Príprava na obnovu kontextu SELinuxu pre %1$,d súborov</item>
+    </plurals>
+    <string name="file_job_restore_selinux_context_notification_title_one_format">Obnovávanie kontextu SELinuxu pre \"%1$s\"</string>
+    <plurals name="file_job_restore_selinux_context_notification_title_multiple_format">
+        <item quantity="one">Obnovávanie kontextu SELinuxu pre %1$,d súbor</item>
+        <item quantity="few">Obnovávanie kontextu SELinuxu pre %1$,d súbory</item>
+        <item quantity="many">Obnovávanie kontextu SELinuxu pre %1$,d súborov</item>
+        <item quantity="other">Obnovávanie kontextu SELinuxu pre %1$,d súborov</item>
+    </plurals>
+    <string name="file_job_transfer_count_notification_text_multiple_format">%1$,d / %2$,d</string>
+    <string name="file_job_write_notification_title_format">Zapisovanie do \"%1$s\"</string>
+    <string name="file_job_create_error_title">Chyba pri vytváraní</string>
+    <string name="file_job_create_error_message_format">Nastala chyba pri vytváraní \"%1$s\".\n%2$s</string>
+    <string name="file_job_cannot_copy_into_itself_title">Nie je možné kopírovať priečinok do sebe</string>
+    <string name="file_job_cannot_extract_into_itself_title">Nie je možné rozbaliť priečinok do sebe</string>
+    <string name="file_job_cannot_move_into_itself_title">Nie je možné presunúť priečinok do rovnakého priečinka</string>
+    <string name="file_job_cannot_copy_move_into_itself_message">Cieľový priečinok sa nachádza vnútri zdrojového priečinka.</string>
+    <string name="file_job_cannot_copy_over_itself_title">Nie je možné skopírovať súbor cez seba</string>
+    <string name="file_job_cannot_extract_over_itself_title">Nie je možné rozbaliť súbor cez seba</string>
+    <string name="file_job_cannot_move_over_itself_title">Nie je možné presunúť súbor cez seba</string>
+    <string name="file_job_cannot_copy_move_over_itself_message">Zdrojový súbor by bol prepísaný cílovým súborem.</string>
+    <string name="file_job_replace_title_format">Nahradiť súbor \"%1$s\"?</string>
+    <string name="file_job_replace_message_format">V \"%1$s\" už existuje súbor s rovnakým názvom.\nNahradením sa prepíše jeho obsah.</string>
+    <string name="file_job_replace_target_name">Pôvodný súbor</string>
+    <string name="file_job_replace_source_name">Nahradiť</string>
+    <string name="file_job_merge_title_format">Zlúčiť priečinok \"%1$s\"?</string>
+    <string name="file_job_merge_copy_message_format">Pred nahradením súborov v priečinku, ktoré sú v rozporu s kopírovanými súbory, budete požiadaní o potvrdenie zlúčenia.</string>
+    <string name="file_job_merge_extract_message_format">Pred nahradením súborov v priečinku, ktoré sú v rozporu s rozbalenými súbory, budete požiadaní o potvrdenie zlúčenia.</string>
+    <string name="file_job_merge_move_message_format">Pred nahradením súborov v priečinku, ktoré sú v rozporu s presúvanými súbory, budete požiadaní o potvrdenie zlúčenia.</string>
+    <string name="file_job_merge_target_name">Pôvodný priečinok</string>
+    <string name="file_job_merge_source_name">Zlúčiť s</string>
+    <string name="file_job_conflict_show_name">Zvoľte nový názov cieľa</string>
+    <string name="file_job_conflict_name_hint">Nový názov</string>
+    <string name="file_job_archive_error_title_format">Chyba pri kompresii \"%1$s\"</string>
+    <string name="file_job_archive_error_message_format">Nastala chyba pri kompresii súboru do \"%1$s\".\n%2$s</string>
+    <string name="file_job_copy_error_title_format">Chyba pri kopírovaní \"%1$s\"</string>
+    <string name="file_job_copy_error_message_format">Nastala chyba pri kopírovaní súboru do \"%1$s\".\n%2$s</string>
+    <string name="file_job_extract_error_title_format">Chyba pri rozbaľovaní \"%1$s\"</string>
+    <string name="file_job_extract_error_message_format">Nastala chyba pri rozbaľovaní súboru do \"%1$s\".\n%2$s</string>
+    <string name="file_job_move_error_title_format">Chyba pri presúvaní \"%1$s\"</string>
+    <string name="file_job_move_error_message_format">Nastala chyba pri presúvaní súboru do \"%1$s\".\n%2$s</string>
+    <string name="file_job_delete_error_title">Chyba pri mazaní</string>
+    <string name="file_job_delete_error_message_format">Nastala chyba pri mazaní \"%1$s\".\n%2$s</string>
+    <string name="file_job_rename_error_title_format">Chyba pri premenovávaní \"%1$s\"</string>
+    <string name="file_job_rename_error_message_format">Nastala chyba pri premenovávaní súboru na \"%1$s\".\n%2$s</string>
+    <string name="file_job_set_owner_error_title_format">Chyba pri zmene majiteľa \"%1$s\"</string>
+    <string name="file_job_set_owner_error_message_format">Nastala chyba pri zmene majiteľa na \"%1$s\".\n%2$s</string>
+    <string name="file_job_set_group_error_title_format">Chyba pri zmene skupiny pre \"%1$s\"</string>
+    <string name="file_job_set_group_error_message_format">Nastala chyba pri zmene skupiny na \"%1$s\".\n%2$s</string>
+    <string name="file_job_set_mode_error_title_format">Chyba pri zmene režimu pre \"%1$s\"</string>
+    <string name="file_job_set_mode_error_message_format">Nastala chyba pri zmene režimu na \"%1$s\".\n%2$s</string>
+    <string name="file_job_set_selinux_context_error_title_format">Chyba pri zmene kontextu SELinuxu pre \"%1$s\"</string>
+    <string name="file_job_set_selinux_context_error_message_format">Nastala chyba pri zmene kontextu SELinuxu na \"%1$s\".\n%2$s</string>
+    <string name="file_job_restore_selinux_context_error_title">Chyba pri obnove kontextu SELinuxu</string>
+    <string name="file_job_restore_selinux_context_error_message_format">Nastala chyba pri obnove kontextu SELinuxu pre \"%1$s\".\n%2$s</string>
+    <string name="file_job_write_error_title">Chyba pri zapisovaní</string>
+    <string name="file_job_write_error_message_format">Nastala chyba pri zapisovaní \"%1$s\".\n%2$s</string>
+    <string name="file_job_get_information_error_message_format">Nastala chyba pri získavaní informácií o \"%1$s\".</string>
+    <string name="file_job_remount_format">Nastaviť \"%1$s\" ako čítanie-zápis</string>
+    <string name="file_job_remount_loading_format">Nastavovanie \"%1$s\" ako čítanie-zápis</string>
+    <string name="file_job_remount_success_format">\"%1$s\" bolo nastavené ako čítanie-zápis</string>
+    <string name="file_job_action_all">Použiť túto akciu na všetky súbory</string>
+
+    <string name="file_open_apk_message">Tento súbor je balíčkom pre systém Android. Chcete ho nainštalovať alebo zobraziť jeho obsah?</string>
+    <string name="file_open_as_title">Otvoriť ako…</string>
+    <string name="file_open_as_title_format">Otvoriť \"%1$s\" ako</string>
+    <string name="file_open_as_type_text">Text</string>
+    <string name="file_open_as_type_image">Obrázok</string>
+    <string name="file_open_as_type_audio">Zvuk</string>
+    <string name="file_open_as_type_video">Video</string>
+    <string name="file_open_as_type_directory">Priečinok</string>
+    <string name="file_open_as_type_any">Iné</string>
+    <string name="file_install_apk_from_background_title_format">\"%1$s\" je pripravené na inštaláciu</string>
+    <string name="file_install_apk_from_background_text">Klepnite na inštaláciu</string>
+    <string name="file_open_from_background_title_format">\"%1$s\" je pripravené na otvorenie</string>
+    <string name="file_open_from_background_text">Klepnite na otvorenie</string>
+    <string name="file_name_error_empty">Názov súboru nemôže byť prázdný</string>
+    <string name="file_name_error_invalid">Neplatný názov súboru</string>
+    <string name="file_name_error_already_exists">Súbor s týmto názvom už existuje</string>
+    <string name="file_replace_message_format">Nahradiť „%1$s“?</string>
+    <string name="file_delete_message_file_format">Zmazať \"%1$s\"?</string>
+    <string name="file_delete_message_directory_format">Zmazať priečinok „%1$s" a jeho obsah?</string>
+    <plurals name="file_delete_message_multiple_files_format">
+        <item quantity="one">Odstrániť %1$,d súbor?</item>
+        <item quantity="few">Odstrániť %1$,d súbory?</item>
+        <item quantity="many">Odstrániť %1$,d súborov?</item>
+        <item quantity="other">Odstrániť %1$,d súborov?</item>
+    </plurals>
+    <plurals name="file_delete_message_multiple_directories_format">
+        <item quantity="one">Odstrániť %1$,d priečinok a jeho obsah?</item>
+        <item quantity="few">Odstrániť %1$,d priečinky a ich obsahy?</item>
+        <item quantity="many">Odstrániť %1$,d priečinkov a ich obsahy?</item>
+        <item quantity="other">Odstrániť %1$,d priečinkov a ich obsahy?</item>
+    </plurals>
+    <plurals name="file_delete_message_multiple_mixed_format">
+        <item quantity="one">Odstrániť %1$,d položku?</item>
+        <item quantity="few">Odstrániť %1$,d položky?</item>
+        <item quantity="many">Odstrániť %1$,d položiek?</item>
+        <item quantity="other">Odstrániť %1$,d položiek?</item>
+    </plurals>
+    <string name="file_create_archive_title">Vytvoriť archiv</string>
+    <string name="file_create_archive_type_zip">.zip</string>
+    <string name="file_create_archive_type_tar_xz">.tar.xz</string>
+    <string name="file_create_archive_type_7z">.7z</string>
+    <string name="file_create_archive_password">Heslo (voliteľné)</string>
+    <string name="file_add_bookmark_success">Záložka pridaná</string>
+    <string name="file_create_file_title">Nový súbor</string>
+    <string name="file_create_directory_title">Nový priečinok</string>
+
+    <string name="file_list_title">Súbory</string>
+    <string name="file_list_title_create_file">Uložiť súbor</string>
+    <plurals name="file_list_subtitle_directory_count_format">
+        <item quantity="one">%1$,d priečinok</item>
+        <item quantity="few">%1$,d priečinky</item>
+        <item quantity="many">%1$,d priečinkov</item>
+        <item quantity="other">%1$,d priečinkov</item>
+    </plurals>
+    <plurals name="file_list_subtitle_file_count_format">
+        <item quantity="one">%1$,d súbor</item>
+        <item quantity="few">%1$,d súbory</item>
+        <item quantity="many">%1$,d súborov</item>
+        <item quantity="other">%1$,d súborov</item>
+    </plurals>
+    <string name="file_list_subtitle_separator">,\u0020</string>
+    <string name="file_list_path_error_empty">Cesta nemôže byť prázdna</string>
+    <string name="file_list_path_error_invalid">Neplatná cesta</string>
+    <string name="file_list_action_view_sort">Zobrazenie a zoradenie</string>
+    <string name="file_list_action_view_list">Zoznam</string>
+    <string name="file_list_action_view_grid">Mriežka</string>
+    <string name="file_list_action_sort_by_name">Názov</string>
+    <string name="file_list_action_sort_by_type">Typ</string>
+    <string name="file_list_action_sort_by_size">Veľkosť</string>
+    <string name="file_list_action_sort_by_last_modified">Naposledy zmenené</string>
+    <string name="file_list_action_sort_order_ascending">Vzostupne</string>
+    <string name="file_list_action_sort_directories_first">Priečinky ako prvé</string>
+    <string name="file_list_action_view_sort_path_specific">Len pre tento priečinok</string>
+    <string name="file_list_action_new_task">Nové okno</string>
+    <string name="file_list_action_navigate_up">Hore</string>
+    <string name="file_list_action_navigate_to">Prejsť na</string>
+    <string name="file_list_action_show_hidden_files">Zobraziť skryté súbory</string>
+    <string name="file_list_action_copy_path">Skopírovať cestu</string>
+    <string name="file_list_action_open_in_terminal">Otvoriť v príkazovom riadku</string>
+    <string name="file_list_action_add_bookmark">Pridať záložku</string>
+    <string name="file_list_action_create_shortcut">Vytvoriť zástupcu</string>
+    <string name="file_list_breadcrumb_action_open_in_new_task">Otvoriť v novom okne</string>
+    <string name="file_list_create_file_name_hint">Názov súboru</string>
+    <string name="file_list_paste_move_title_format">Presúvanie %1$,d</string>
+    <string name="file_list_paste_copy_title_format">Kopírovanie %1$,d</string>
+    <string name="file_list_paste_extract_title_format">Rozbaľovanie %1$,d</string>
+    <string name="file_list_paste_action_extract_here">Rozbaliť tu</string>
+    <string name="file_list_empty">Žiadne súbory</string>
+    <string name="file_list_action_create_file">Súbor</string>
+    <string name="file_list_action_create_directory">Priečinok</string>
+
+    <string name="file_item_description_separator">\u0020\u0020\u0020\u0020</string>
+    <string name="file_item_action_open_with">Otvoriť v</string>
+    <string name="file_item_action_extract">Rozbaliť</string>
+    <string name="file_item_action_archive">Komprimovať</string>
+    <string name="file_item_action_properties">Vlastnosti</string>
+
+    <string name="file_properties_title_format">Vlastnosti \"%1$s\"</string>
+    <string name="file_properties_basic">Základné</string>
+    <string name="file_properties_basic_name">Názov</string>
+    <string name="file_properties_basic_type">Typ</string>
+    <string name="file_properties_basic_type_format">%1$s(%2$s)</string>
+    <string name="file_properties_basic_type_symbolic_link_format">Odkaz na %1$s (%2$s)</string>
+    <string name="file_properties_basic_symbolic_link_target">Cieľ odkazu</string>
+    <string name="file_properties_basic_size">Veľkosť</string>
+    <string name="file_properties_basic_size_with_human_readable_format">%1$s(%2$s)</string>
+    <string name="file_properties_basic_contents">Obsah</string>
+    <plurals name="file_properties_basic_contents_format">
+        <item quantity="one">%1$,d položka, s veľkosťou %2$s</item>
+        <item quantity="few">%1$,d položky, spolu %2$s</item>
+        <item quantity="many">%1$,d položiek, spolu %2$s</item>
+        <item quantity="other">%1$,d položiek, spolu %2$s</item>
+    </plurals>
+    <string name="file_properties_basic_last_modification_time">Zmenené</string>
+    <string name="file_properties_basic_parent_directory">Materský priečinok</string>
+    <string name="file_properties_basic_archive_file">Archivovaný súbor</string>
+    <string name="file_properties_basic_archive_entry">Archivovaná položka</string>
+    <string name="file_properties_basic_free_space">Voľné miesto</string>
+    <string name="file_properties_permission">Oprávnenia</string>
+    <string name="file_properties_permission_owner">Vlastník</string>
+    <string name="file_properties_permission_group">Skupina</string>
+    <string name="file_properties_permission_set_owner_title">Zmeniť vlastníka</string>
+    <string name="file_properties_permission_set_group_title">Zmeniť skupinu</string>
+    <string name="file_properties_permission_set_principal_filter_hint">Zadajte názov alebo ID</string>
+    <string name="file_properties_permission_mode">Režim</string>
+    <string name="file_properties_permission_set_mode_title">Zmeniť režim</string>
+    <string name="file_properties_permission_set_mode_others">Ostatní</string>
+    <string-array name="file_properties_permission_set_mode_normal_mode_bits_file">
+        <item>Čítanie</item>
+        <item>Zápis</item>
+        <item>Spustenie</item>
+    </string-array>
+    <string-array name="file_properties_permission_set_mode_normal_mode_bits_directory">
+        <item>Čítanie</item>
+        <item>Zápis</item>
+        <item>Vyhľadanie</item>
+    </string-array>
+    <string name="file_properties_permission_set_mode_special">Špeciálne</string>
+    <string-array name="file_properties_permission_set_mode_special_mode_bits">
+        <item>Nastaviť UID</item>
+        <item>Nastaviť GID</item>
+        <item>Sticky bit</item>
+    </string-array>
+    <string name="file_properties_permission_set_selinux_context_restore">Obnoviť</string>
+    <string name="file_properties_image">Obrázok</string>
+    <string name="file_properties_media_dimensions">Rozmery</string>
+    <string name="file_properties_media_dimensions_format">%1$d \u00d7 %2$d</string>
+    <string name="file_properties_media_date_time">Dátum vytvorenia</string>
+    <string name="file_properties_media_coordinates">Súradnice</string>
+    <string name="file_properties_media_coordinates_format">%1$.3f, %2$.3f</string>
+    <string name="file_properties_media_address">Poloha</string>
+    <string name="file_properties_image_gps_altitude">Nadmorská výška</string>
+    <string name="file_properties_image_gps_altitude_format">%1$,.3f m</string>
+    <string name="file_properties_image_equipment">Kamera</string>
+    <string name="file_properties_image_equipment_format">%1$s %2$s</string>
+    <string name="file_properties_image_f_number">Clona</string>
+    <string name="file_properties_image_shutter_speed">Rýchlosť uzávierky</string>
+    <string name="file_properties_image_focal_length">Ohnisková vzdialenosť</string>
+    <string name="file_properties_image_focal_length_format">%1$.2f mm</string>
+    <string name="file_properties_image_photographic_sensitivity">Ekvivalent ISO</string>
+    <string name="file_properties_image_photographic_sensitivity_format">ISO %1$d</string>
+    <string name="file_properties_image_software">Softvér</string>
+    <string name="file_properties_image_description">Popis</string>
+    <string name="file_properties_image_artist">Tvorca</string>
+    <string name="file_properties_image_copyright">Copyright</string>
+    <string name="file_properties_audio">Zvuk</string>
+    <string name="file_properties_media_title">Názov</string>
+    <string name="file_properties_audio_artist">Umelec</string>
+    <string name="file_properties_audio_album">Album</string>
+    <string name="file_properties_audio_album_artist">Interpret albumu</string>
+    <string name="file_properties_audio_composer">Skladateľ</string>
+    <string name="file_properties_audio_disc_number">Disk</string>
+    <string name="file_properties_audio_track_number">Skladba</string>
+    <string name="file_properties_audio_year">Rok</string>
+    <string name="file_properties_audio_genre">Žáner</string>
+    <string name="file_properties_media_duration">Trvanie</string>
+    <string name="file_properties_media_bit_rate">Prenosová rýchlosť</string>
+    <string name="file_properties_media_bit_rate_format">%1$d kbps</string>
+    <string name="file_properties_audio_sample_rate">Frekvencia vzorkovania</string>
+    <string name="file_properties_audio_sample_rate_format">%1$d Hz</string>
+    <string name="file_properties_video">Video</string>
+    <string name="file_properties_apk">APK</string>
+    <string name="file_properties_apk_label">Názov</string>
+    <string name="file_properties_apk_package_name">Názov balíčku</string>
+    <string name="file_properties_apk_version">Verzia</string>
+    <string name="file_properties_apk_version_format">%1$s(%2$d)</string>
+    <string name="file_properties_apk_min_sdk_version">Minimálna verzia systému</string>
+    <string name="file_properties_apk_target_sdk_version">Odporúčaná verzia systému</string>
+    <string name="file_properites_apk_sdk_version_format">%1$s (%2$s, %3$d)</string>
+    <string name="file_properties_apk_requested_permissions">Oprávnenia</string>
+    <string name="file_properties_apk_requested_permissions_zero">Neboli vyžiadané žiadne oprávnenia</string>
+    <plurals name="file_properties_apk_requested_permissions_positive_format">
+        <item quantity="one">%1$,d požadované oprávnenie</item>
+        <item quantity="few">%1$,d požadované oprávnenie</item>
+        <item quantity="many">%1$,d požadovaných oprávnení</item>
+        <item quantity="other">%1$,d požadovaných oprávnení</item>
+    </plurals>
+    <string name="file_properties_apk_signature_digests">Podpisy</string>
+    <string name="file_properties_apk_signature_digests_empty">Žiadne platné podpisy</string>
+    <string name="file_properties_apk_past_signature_digests">Staré podpisy</string>
+    <string name="file_properties_checksum">Kontrolné súčty</string>
+    <string name="file_properties_checksum_compare">Porovnať</string>
+    <string name="file_properties_checksum_compare_placeholder">Akýkoľvek kontrolný súčet</string>
+    <string name="file_properties_checksum_compare_no_match">Žiadny zodpovedajúci kontrolný súčet</string>
+    <string name="storage_file_system_root_title">Root</string>
+    <string name="storage_list_title">Úložisko</string>
+    <string name="storage_list_empty">Žiadne úložisko</string>
+    <string name="storage_add_storage_title">Pridať úložisko</string>
+    <string name="storage_add_storage_document_tree">Externé úložisko</string>
+    <string name="storage_add_storage_ftp_server">Server FTP</string>
+    <string name="storage_add_storage_sftp_server">Server SFTP</string>
+    <string name="storage_add_storage_smb_server">Server SMB</string>
+    <string name="storage_add_storage_webdav_server">Server WebDAV</string>
+    <string name="storage_add_storage_kra_server">Online úložisko KRA</string>
+    <string name="storage_edit_device_storage_title">Upraviť úložisko zariadenia</string>
+    <string name="storage_edit_device_storage_name">Názov</string>
+    <string name="storage_edit_device_storage_path">Cesta</string>
+    <string name="storage_add_document_tree_title">Pridať externé úložisko</string>
+    <string name="storage_edit_document_tree_title">Upraviť externé úložisko</string>
+    <string name="storage_edit_document_tree_name">Názov</string>
+    <string name="storage_edit_document_tree_uri">URI</string>
+    <string name="storage_edit_document_tree_path">Cesta</string>
+    <string name="storage_edit_ftp_server_title_edit">Upraviť server FTP</string>
+    <string name="storage_edit_ftp_server_title_add">Pridať server FTP</string>
+    <string name="storage_edit_ftp_server_host">Názov hostiteľa</string>
+    <string name="storage_edit_ftp_server_host_error_empty">Zadajte názov hostiteľa</string>
+    <string name="storage_edit_ftp_server_host_error_invalid">Neplatný názov hostiteľa</string>
+    <string name="storage_edit_ftp_server_port">Port</string>
+    <string name="storage_edit_ftp_server_port_error_invalid">Neplatný port</string>
+    <string name="storage_edit_ftp_server_path">Cesta</string>
+    <string name="storage_edit_ftp_server_path_placeholder">Môže zostať prázdna</string>
+    <string name="storage_edit_ftp_server_name">Názov</string>
+    <string name="storage_edit_ftp_server_name_placeholder">Použiť názov hostiteľa</string>
+    <string name="storage_edit_ftp_server_protocol">Protokol</string>
+    <string name="storage_edit_ftp_server_authentication_type">Overenie</string>
+    <string-array name="storage_edit_ftp_server_authentication_type_entries">
+        <item>Heslo</item>
+        <item>Anonymný</item>
+    </string-array>
+    <string name="storage_edit_ftp_server_username">Používateľské meno</string>
+    <string name="storage_edit_ftp_server_username_error_empty">Zadajte používateľské meno</string>
+    <string name="storage_edit_ftp_server_password">Heslo</string>
+    <string name="storage_edit_ftp_server_mode">Režim</string>
+    <string-array name="storage_edit_ftp_server_mode_entries">
+        <item>Aktívny</item>
+        <item>Pasívny</item>
+    </string-array>
+    <string name="storage_edit_ftp_server_encoding">Kódovanie</string>
+    <string name="storage_edit_ftp_server_connect_and_add">Pripojiť a pridať</string>
+    <string name="storage_edit_ftp_server_add">Pridať</string>
+    <string name="storage_edit_sftp_server_title_edit">Upraviť server SFTP</string>
+    <string name="storage_edit_sftp_server_title_add">Pridať server SFTP</string>
+    <string name="storage_edit_sftp_server_host">Názov hostiteľa</string>
+    <string name="storage_edit_sftp_server_host_error_empty">Zadajte názov hostiteľa</string>
+    <string name="storage_edit_sftp_server_host_error_invalid">Neplatný názov hostiteľa</string>
+    <string name="storage_edit_sftp_server_port">Port</string>
+    <string name="storage_edit_sftp_server_port_error_invalid">Neplatný port</string>
+    <string name="storage_edit_sftp_server_path">Cesta</string>
+    <string name="storage_edit_sftp_server_path_placeholder">Môže byť prázdne</string>
+    <string name="storage_edit_sftp_server_name">Názov</string>
+    <string name="storage_edit_sftp_server_name_placeholder">Použiť názov hostiteľa</string>
+    <string name="storage_edit_sftp_server_authentication_type">Overenie</string>
+    <string-array name="storage_edit_sftp_server_authentication_type_entries">
+        <item>Heslo</item>
+        <item>Verejný kľúč</item>
+    </string-array>
+    <string name="storage_edit_sftp_server_username">Používateľské meno</string>
+    <string name="storage_edit_sftp_server_username_error_empty">Zadajte používateľské meno</string>
+    <string name="storage_edit_sftp_server_password">Heslo</string>
+    <string name="storage_edit_sftp_server_private_key">Súkromný kľúč</string>
+    <string name="storage_edit_sftp_server_private_key_open_file">Otvoriť súbor</string>
+    <string name="storage_edit_sftp_server_private_key_error_empty">Zadajte súkromný kľúč</string>
+    <string name="storage_edit_sftp_server_private_key_error_invalid">Neplatný súkromný kľúč</string>
+    <string name="storage_edit_sftp_server_private_key_password">Heslo súkromného kľúča</string>
+    <string name="storage_edit_sftp_server_private_key_password_placeholder">Môže zostať prázdne</string>
+    <string name="storage_edit_sftp_server_private_key_password_error_invalid">Neplatné heslo súkromného kľúča</string>
+    <string name="storage_edit_sftp_server_connect_and_add">Pripojiť sa a pridať</string>
+    <string name="storage_edit_sftp_server_add">Pridať</string>
+    <string name="storage_edit_kra_server_title_edit">Upraviť KRA API server</string>
+    <string name="storage_edit_kra_server_title_add">Pridať KRA API server</string>
+    <string name="storage_edit_kra_server_host">Názov hostiteľa</string>
+    <string name="storage_edit_kra_server_host_error_empty">Zadať názov hostiteľa</string>
+    <string name="storage_edit_kra_server_port">Port</string>
+    <string name="storage_edit_kra_server_port_placeholder" translatable="false">443</string>
+    <string name="storage_edit_kra_server_port_error_invalid">Neplatný port</string>
+    <string name="storage_edit_kra_server_username">Používateľské meno</string>
+    <string name="storage_edit_kra_server_username_error_empty">Zadať používateľské meno</string>
+    <string name="storage_edit_kra_server_password">Heslo</string>
+    <string name="storage_edit_kra_server_password_error_empty">Zadať heslo</string>
+    <string name="storage_edit_kra_server_name">Názov</string>
+    <string name="storage_edit_kra_server_connect_and_add">Pripojiť sa a pridať</string>
+    <string name="storage_edit_kra_server_add">Pridať</string>
+    <string name="storage_add_lan_smb_server_loading">Hľadanie SMB serverov…</string>
+    <string name="storage_add_lan_smb_server_add">Pridať manuálne</string>
+    <string name="storage_edit_smb_server_title_edit">Upraviť server SMB</string>
+    <string name="storage_edit_smb_server_title_add">Pridať server SMB</string>
+    <string name="storage_edit_smb_server_host">Názov hostiteľa</string>
+    <string name="storage_edit_smb_server_host_error_empty">Zadajte názov hostiteľa</string>
+    <string name="storage_edit_smb_server_host_error_invalid">Neplatný názov hostiteľa</string>
+    <string name="storage_edit_smb_server_port">Port</string>
+    <string name="storage_edit_smb_server_port_error_invalid">Neplatný port</string>
+    <string name="storage_edit_smb_server_path">Cesta</string>
+    <string name="storage_edit_smb_server_path_placeholder">Môže byť prázdne</string>
+    <string name="storage_edit_smb_server_name">Názov</string>
+    <string name="storage_edit_smb_server_name_placeholder">Použiť názov hostiteľa</string>
+    <string name="storage_edit_smb_server_authentication_type">Overenie</string>
+    <string-array name="storage_edit_smb_server_authentication_type_entries">
+        <item>Heslo</item>
+        <item>Host</item>
+        <item>Anonymný</item>
+    </string-array>
+    <string name="storage_edit_smb_server_username">Používateľské meno</string>
+    <string name="storage_edit_smb_server_username_error_empty">Zadajte používateľské meno</string>
+    <string name="storage_edit_smb_server_password">Heslo</string>
+    <string name="storage_edit_smb_server_domain">Doména</string>
+    <string name="storage_edit_smb_server_connect_and_add">Pripojiť sa a pridať</string>
+    <string name="storage_edit_smb_server_add">Pridať</string>
+    <string name="storage_edit_webdav_server_title_edit">Upraviť server WebDAV</string>
+    <string name="storage_edit_webdav_server_title_add">Pridať server WebDAV</string>
+    <string name="storage_edit_webdav_server_host">Názov hostiteľa</string>
+    <string name="storage_edit_webdav_server_host_error_empty">Zadajte názov hostiteľa</string>
+    <string name="storage_edit_webdav_server_host_error_invalid">Neplatný názov hostiteľa</string>
+    <string name="storage_edit_webdav_server_port">Port</string>
+    <string name="storage_edit_webdav_server_port_error_invalid">Neplatný port</string>
+    <string name="storage_edit_webdav_server_path">Cesta</string>
+    <string name="storage_edit_webdav_server_path_placeholder">Môže byť vynechaná</string>
+    <string name="storage_edit_webdav_server_name">Názov</string>
+    <string name="storage_edit_webdav_server_name_placeholder">Použiť názov hostiteľa</string>
+    <string name="storage_edit_webdav_server_protocol">Protokol</string>
+    <string name="storage_edit_webdav_server_authentication_type">Overenie</string>
+    <string-array name="storage_edit_webdav_server_authentication_type_entries">
+        <item>Heslo</item>
+        <item>Prístupový token</item>
+        <item>Žiadne</item>
+    </string-array>
+    <string name="storage_edit_webdav_server_username">Používateľské meno</string>
+    <string name="storage_edit_webdav_server_username_error_empty">Zadajte používateľské meno</string>
+    <string name="storage_edit_webdav_server_password">Heslo</string>
+    <string name="storage_edit_webdav_server_access_token">Prístupový token</string>
+    <string name="storage_edit_webdav_server_access_token_error_empty">Zadajte prístupový token</string>
+    <string name="storage_edit_webdav_server_connect_and_add">Pripojiť a pridať</string>
+    <string name="storage_edit_webdav_server_add">Pridať</string>
+
+    <string name="navigation_storage_subtitle_format">%1$s voľných z %2$s</string>
+    <string name="navigation_add_storage">Pridať úložisko…</string>
+    <string name="navigation_standard_directory_alarms">Budíky</string>
+    <string name="navigation_standard_directory_dcim">DCIM</string>
+    <string name="navigation_standard_directory_documents">Dokumenty</string>
+    <string name="navigation_standard_directory_downloads">Sťahovania</string>
+    <string name="navigation_standard_directory_movies">Filmy</string>
+    <string name="navigation_standard_directory_music">Hudba</string>
+    <string name="navigation_standard_directory_notifications">Oznámenia</string>
+    <string name="navigation_standard_directory_pictures">Obrázky</string>
+    <string name="navigation_standard_directory_podcasts">Podcasty</string>
+    <string name="navigation_standard_directory_ringtones">Vyzváňania</string>
+    <string name="navigation_standard_directory_qq">QQ</string>
+    <string name="navigation_standard_directory_tim">TIM</string>
+    <string name="navigation_standard_directory_wechat">WeChat</string>
+    <string name="navigation_edit_bookmark_directory_title">Záložkový priečinok</string>
+    <string name="navigation_edit_bookmark_directory_name">Názov</string>
+    <string name="navigation_edit_bookmark_directory_path">Cesta</string>
+    <string name="archive_viewer_title">Prehliadač archívov</string>
+    <string name="image_viewer_title">Prehliadač obrázkov</string>
+    <string name="image_viewer_subtitle_format">%1$,d/%2$,d</string>
+    <string name="save_as_title">Uložiť ako</string>
+    <string name="save_as_error">Chyba pri ukladaní súboru</string>
+    <string name="save_as_success_format">„%1$s“ bol uložený do „%2$s“</string>
+    <string name="text_editor_title">Textový editor</string>
+    <string name="text_editor_title_format">%1$s</string>
+    <string name="text_editor_title_changed_format">*%1$s</string>
+    <string name="text_editor_save_success">Uložené</string>
+    <string name="text_editor_reload_message">Ste si istí, že chcete dokument znova načítať? Neuložené zmeny budú stratené.</string>
+    <string name="text_editor_encoding">Kódovanie</string>
+    <string name="text_editor_close_message">Ste si istí, že chcete zahodiť neuložené zmeny v tomto dokumente?</string>
+
+    <string name="ftp_server_title">Server FTP</string>
+    <string name="ftp_server_state_title">Stav</string>
+    <string name="ftp_server_state_summary_starting">Spúšťanie…</string>
+    <string name="ftp_server_state_summary_running">Beží</string>
+    <string name="ftp_server_state_summary_stopping">Zastavovanie…</string>
+    <string name="ftp_server_state_summary_stopped">Nie je spustené</string>
+    <string name="ftp_server_url_title">URL</string>
+    <string name="ftp_server_url_summary_no_local_inet_address">Miestna IP adresa je neznáma</string>
+    <string name="ftp_server_url_menu_copy_url">Kopírovať URL</string>
+    <string name="ftp_server_url_menu_copy_password">Kopírovať heslo</string>
+    <string name="ftp_server_add_tile_title">Pridať do rýchlych nastavení</string>
+    <string name="ftp_server_add_tile_result_added">\"Server FTP\" bol pridaný do rýchlych nastavení</string>
+    <string name="ftp_server_add_tile_result_already_added">\"Server FTP\" už bol pridaný do rýchlych nastavení</string>
+    <string name="ftp_server_add_tile_result_error">Chyba pri pridávaní \"Server FTP\" do rýchlych nastavení</string>
+    <string name="ftp_server_configuration_title">Konfigurácia</string>
+    <string name="ftp_server_anonymous_login_title">Anonymné prihlásenie</string>
+    <string name="ftp_server_username_title">Používateľské meno</string>
+    <string name="ftp_server_password_title">Heslo</string>
+    <string name="ftp_server_port_title">Port</string>
+    <string name="ftp_server_home_directory_title">Koreňový priečinok</string>
+    <string name="ftp_server_writable_title">Povoliť zapisovanie</string>
+    <string name="settings_title">Nastavenia</string>
+    <string name="settings_interface_title">Rozhranie</string>
+    <string name="settings_locale_title">Jazyk</string>
+    <string name="settings_theme_color_title">Farba témy</string>
+    <string name="settings_theme_color_summary">Farba, ktorá sa v aplikácii vyskytuje najviac</string>
+    <string name="settings_material_design_3_title">Material Design 3</string>
+    <string name="settings_night_mode_title">Nočný režim</string>
+    <string-array name="settings_night_mode_entries">
+        <item>Podľa systému</item>
+        <item>Vypnuté</item>
+        <item>Zapnuté</item>
+        <item>Podľa času</item>
+        <item>Podľa šetriča batérie</item>
+    </string-array>
+    <string name="settings_black_night_mode">Čierny nočný režim</string>
+    <string name="settings_file_list_animation_title">Animácia pri zobrazení súborov</string>
+    <string name="settings_file_name_ellipsize_title">Spôsob zobrazenia dlhého názvu súboru</string>
+    <string-array name="settings_file_name_ellipsize_entries">
+        <item>Zobraziť od konca</item>
+        <item>Zobraziť začiatok a koniec</item>
+        <item>Zobraziť od začiatku</item>
+        <item>Posúvanie názvu</item>
+    </string-array>
+    <string name="settings_behavior_title">Správanie</string>
+    <string name="settings_default_directory_title">Predvolený priečinok</string>
+    <string name="settings_standard_directories_title">Štandardné priečinky</string>
+    <string name="settings_standard_directories_summary_empty">Nie sú povolené žiadne štandardné priečinky</string>
+    <string name="settings_bookmark_directory_screenshots">Snímky obrazovky</string>
+    <string name="settings_bookmark_directories_title">Záložkové priečinky</string>
+    <string name="settings_bookmark_directories_summary_empty">Žiadne záložkové priečinky</string>
+    <string name="settings_root_strategy_title">Režim prístupu root</string>
+    <plurals name="settings_root_strategy_message_format">
+        <item quantity="one">Práve prebieha %1$,d súborová operácia a zmena režimu prístupu root by mohla mať za následok neočakávanú chybu. Ste si istí, že ho chcete zmeniť teraz?</item>
+        <item quantity="few">Práve prebieha %1$,d súborové operácie a zmena režimu prístupu root by mohla mať za následok neočakávanú chybu. Ste si istí, že ho chcete zmeniť teraz?</item>
+        <item quantity="many">Práve prebieha %1$,d súborových operácií a zmena režimu prístupu root by mohla mať za následok neočakávanú chybu. Ste si istí, že ho chcete zmeniť teraz?</item>
+        <item quantity="other">Práve prebieha %1$,d súborových operácií a zmena režimu prístupu root by mohla mať za následok neočakávanú chybu. Ste si istí, že ho chcete zmeniť teraz?</item>
+    </plurals>
+    <string-array name="settings_root_strategy_entries">
+        <item>Iba normálny prístup</item>
+        <item>Automatický</item>
+        <item>Iba prístup root</item>
+    </string-array>
+    <string name="settings_archive_file_name_encoding_title">Kódovanie názvu archivovaného súboru</string>
+    <string name="settings_open_apk_default_action_title">Otváranie balíka Android</string>
+    <string-array name="settings_open_apk_default_action_entries">
+        <item>Nainštalovať</item>
+        <item>Zobraziť obsah</item>
+        <item>Opýtať sa, čo urobiť</item>
+    </string-array>
+    <string name="settings_show_pdf_thumbnail_pre_28_title">Zobraziť náhľad pre PDF súbory</string>
+    <string name="settings_show_pdf_thumbnail_pre_28_summary">Aplikácia môže byť nestabilná na starších verziách systému Android.</string>
+    <string name="settings_read_remote_files_for_thumbnail_title">Prečítať vzdialené súbory pre náhľad</string>
+
+    <string name="about_title">O aplikácii</string>
+    <string name="about_version_title">Verzia</string>
+    <string name="about_github_title">Zobraziť na GitHube</string>
+    <string name="about_licenses_title">Licencie</string>
+    <string name="about_privacy_policy_title">Zásady ochrany súkromia</string>
+    <string name="about_author_title">Autor</string>
+    <string name="about_author_name_title">Copyright (c) 2025 Kráska s.r.o.</string>
+    <string name="about_author_credits_title">založené na MaterialFiles od Hai Zhang</string>
+</resources>

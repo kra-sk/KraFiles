@@ -7,7 +7,7 @@
 
 <resources>
 
-    <string name="app_name">Material Files</string>
+    <string name="app_name">KRA Files</string>
 
     <string name="close">閉じる</string>
     <string name="copy">コピー</string>
@@ -636,10 +636,5 @@
     <string name="about_title">このアプリについて</string>
     <string name="about_version_title">バージョン</string>
     <string name="about_github_title">GitHub で見る</string>
-    <string name="about_licenses_title">ライセンス</string>
-    <string name="about_privacy_policy_title">プライバシーポリシー</string>
     <string name="about_author_title">開発者</string>
-    <string name="about_author_name_title">張海</string>
-    <string name="about_author_github_title">GitHub でフォロー</string>
-    <string name="about_author_twitter_title">Twitter でフォロー</string>
 </resources>

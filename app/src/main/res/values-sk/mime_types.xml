@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+  ~ Copyright (c) 2018 Hai Zhang <dreaming.in.code.zh@gmail.com>
+  ~ All Rights Reserved.
+  -->
+
+<resources>
+    <string name="file_type_name_unknown">Súbor</string>
+    <string name="file_type_name_apk">Balík Android</string>
+    <string name="file_type_name_archive">%1$s archív</string>
+    <string name="file_type_name_audio">%1$s audio</string>
+    <string name="file_type_name_calendar">%1$s kalendár</string>
+    <string name="file_type_name_certificate">%1$s certifikát</string>
+    <string name="file_type_name_code">%1$s dokument</string>
+    <string name="file_type_name_contact">Elektronická vizitka</string>
+    <string name="file_type_name_directory">Priečinok</string>
+    <string name="file_type_name_document">%1$s dokument</string>
+    <string name="file_type_name_ebook">%1$s e-kniha</string>
+    <string name="file_type_name_email">%1$s e-mailová správa</string>
+    <string name="file_type_name_font">%1$s písmo</string>
+    <string name="file_type_name_generic">%1$s súbor</string>
+    <string name="file_type_name_image">%1$s obrázok</string>
+    <string name="file_type_name_pdf">Dokument PDF</string>
+    <string name="file_type_name_presentation">%1$s prezentácia</string>
+    <string name="file_type_name_spreadsheet">%1$s tabuľka</string>
+    <string name="file_type_name_text">%1$s dokument</string>
+    <string name="file_type_name_text_plain">Obyčajný textový dokument</string>
+    <string name="file_type_name_video">%1$s video</string>
+    <string name="file_type_name_word">Dokument Word</string>
+    <string name="file_type_name_powerpoint">Prezentácia PowerPoint</string>
+    <string name="file_type_name_excel">Tabuľka Excel</string>
+    <string name="file_type_name_posix_character_device">Znakové zariadenie</string>
+    <string name="file_type_name_posix_block_device">Blokové zariadenie</string>
+    <string name="file_type_name_posix_fifo">Rúrka</string>
+    <string name="file_type_name_posix_symbolic_link">Odkaz</string>
+    <string name="file_type_name_posix_socket">Soket</string>
+    <string name="file_type_name_posix_symbolic_link_broken">Odkaz (neplatný)</string>
+</resources>

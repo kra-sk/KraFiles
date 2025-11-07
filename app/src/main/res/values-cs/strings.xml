@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <!--
+  ~ Copyright (c) 2025 Kraska s.r.o. <dev@kra.sk>
   ~ Copyright (c) 2018 Hai Zhang <dreaming.in.code.zh@gmail.com>
   ~ All Rights Reserved.
   -->
 
 <resources>
 
-    <string name="app_name">Material Files</string>
+    <string name="app_name">KRA Files</string>
 
     <string name="close">Zavřít</string>
     <string name="copy">Kopírovat</string>
@@ -133,7 +134,7 @@
     <string name="file_job_transfer_size_notification_text_one_format">%1$s/%2$s</string>
     <string name="file_job_transfer_size_notification_text_multiple_format">%1$,d / %2$,d</string>
     <plurals name="file_job_delete_scan_notification_title_format">
-        <item quantity="one">Připrava ke smazání %1$,d souboru</item>
+        <item quantity="one">Příprava ke smazání %1$,d souboru</item>
         <item quantity="few">Příprava ke smazání %1$,d souborů</item>
         <item quantity="many">Příprava ke smazání %1$,d souborů</item>
         <item quantity="other">Příprava ke smazání %1$,d souborů</item>
@@ -147,66 +148,66 @@
     </plurals>
     <plurals name="file_job_set_owner_scan_notification_title_format">
         <item quantity="one">Příprava pro změnu majitele %1$,d souboru</item>
-        <item quantity="few">Příprava pro změnu majitele %1$,d soubory</item>
+        <item quantity="few">Příprava pro změnu majitele %1$,d souborů</item>
         <item quantity="many">Příprava pro změnu majitele %1$,d souborů</item>
         <item quantity="other">Příprava pro změnu majitele %1$,d souborů</item>
     </plurals>
     <string name="file_job_set_owner_notification_title_one_format">Měním majitele pro \"%1$s\"</string>
     <plurals name="file_job_set_owner_notification_title_multiple_format">
         <item quantity="one">Změna majitele pro %1$,d soubor</item>
-        <item quantity="few">Změna majitele pro %1$,d soubory</item>
+        <item quantity="few">Změna majitele pro %1$,d souborů</item>
         <item quantity="many">Změna majitele pro %1$,d souborů</item>
         <item quantity="other">Změna majitele pro %1$,d souborů</item>
     </plurals>
     <plurals name="file_job_set_group_scan_notification_title_format">
         <item quantity="one">Příprava pro změnu skupiny pro %1$,d soubor</item>
-        <item quantity="few">Příprava pro změnu skupiny pro %1$,d soubory</item>
+        <item quantity="few">Příprava pro změnu skupiny pro %1$,d souborů</item>
         <item quantity="many">Příprava pro změnu skupiny pro %1$,d souborů</item>
         <item quantity="other">Příprava pro změnu skupiny pro %1$,d souborů</item>
     </plurals>
     <string name="file_job_set_group_notification_title_one_format">Změna skupiny pro \"%1$s\"</string>
     <plurals name="file_job_set_group_notification_title_multiple_format">
-        <item quantity="one">Změna skupiny pro %1$,d souborů</item>
-        <item quantity="few">Změna skupiny pro %1$,d soubory</item>
+        <item quantity="one">Změna skupiny pro %1$,d soubor</item>
+        <item quantity="few">Změna skupiny pro %1$,d souborů</item>
         <item quantity="many">Změna skupiny pro %1$,d souborů</item>
         <item quantity="other">Změna skupiny pro %1$,d souborů</item>
     </plurals>
     <plurals name="file_job_set_mode_scan_notification_title_format">
         <item quantity="one">Příprava ke změně režimu pro %1$,d soubor</item>
-        <item quantity="few">Příprava ke změně režimu pro %1$,d soubory</item>
+        <item quantity="few">Příprava ke změně režimu pro %1$,d souborů</item>
         <item quantity="many">Příprava ke změně režimu pro %1$,d souborů</item>
         <item quantity="other">Příprava ke změně režimu pro %1$,d souborů</item>
     </plurals>
     <string name="file_job_set_mode_notification_title_one_format">Změna režimu pro \"%1$s\"</string>
     <plurals name="file_job_set_mode_notification_title_multiple_format">
         <item quantity="one">Změna režimu pro %1$,d soubor</item>
-        <item quantity="few">Změna režimu pro %1$,d soubory</item>
+        <item quantity="few">Změna režimu pro %1$,d souborů</item>
         <item quantity="many">Změna režimu pro %1$,d souborů</item>
         <item quantity="other">Změna režimu pro %1$,d souborů</item>
     </plurals>
     <plurals name="file_job_set_selinux_context_scan_notification_title_format">
         <item quantity="one">Příprava ke změně kontextu SELinuxu pro %1$,d soubor</item>
-        <item quantity="few">Příprava ke změně kontextu SELinuxu pro %1$,d soubory</item>
+        <item quantity="few">Příprava ke změně kontextu SELinuxu pro %1$,d souborů</item>
         <item quantity="many">Příprava ke změně kontextu SELinuxu pro %1$,d souborů</item>
         <item quantity="other">Příprava ke změně kontextu SELinuxu pro %1$,d souborů</item>
     </plurals>
     <string name="file_job_set_selinux_context_notification_title_one_format">Změna kontextu SELinuxu pro \"%1$s\"</string>
     <plurals name="file_job_set_selinux_context_notification_title_multiple_format">
         <item quantity="one">Změna kontextu SELinuxu pro %1$,d soubor</item>
-        <item quantity="few">Změna kontextu SELinuxu pro %1$,d soubry</item>
+        <item quantity="few">Změna kontextu SELinuxu pro %1$,d souborů</item>
         <item quantity="many">Změna kontextu SELinuxu pro %1$,d souborů</item>
         <item quantity="other">Změna kontextu SELinuxu pro %1$,d souborů</item>
     </plurals>
     <plurals name="file_job_restore_selinux_context_scan_notification_title_format">
         <item quantity="one">Příprava k obnově kontextu SELinuxu pro %1$,d soubor</item>
-        <item quantity="few">Příprava k obnově kontextu SELinuxu pro %1$,d soubory</item>
+        <item quantity="few">Příprava k obnově kontextu SELinuxu pro %1$,d souborů</item>
         <item quantity="many">Příprava k obnově kontextu SELinuxu pro %1$,d souborů</item>
         <item quantity="other">Příprava k obnově kontextu SELinuxu pro %1$,d souborů</item>
     </plurals>
     <string name="file_job_restore_selinux_context_notification_title_one_format">Obnovování kontextu SELinuxu pro \"%1$s\"</string>
     <plurals name="file_job_restore_selinux_context_notification_title_multiple_format">
         <item quantity="one">Obnovování kontextu SELinuxu pro %1$,d soubor</item>
-        <item quantity="few">Obnovování kontextu SELinuxu pro %1$,d soubory</item>
+        <item quantity="few">Obnovování kontextu SELinuxu pro %1$,d souborů</item>
         <item quantity="many">Obnovování kontextu SELinuxu pro %1$,d souborů</item>
         <item quantity="other">Obnovování kontextu SELinuxu pro %1$,d souborů</item>
     </plurals>
@@ -325,7 +326,7 @@
         <item quantity="other">%1$,d souborů</item>
     </plurals>
     <string name="file_list_subtitle_separator">,\u0020</string>
-    <string name="file_list_path_error_empty">Cesta nemůže být prázná</string>
+    <string name="file_list_path_error_empty">Cesta nemůže být prázdná</string>
     <string name="file_list_path_error_invalid">Neplatná cesta</string>
     <string name="file_list_action_view_sort">Zobrazení a seřazení</string>
     <string name="file_list_action_view_list">Seznam</string>
@@ -411,7 +412,7 @@
     <string name="file_properties_image">Obrázek</string>
     <string name="file_properties_media_dimensions">Rozměry</string>
     <string name="file_properties_media_dimensions_format">%1$d \u00d7 %2$d</string>
-    <string name="file_properties_media_date_time">Pořízeno na</string>
+    <string name="file_properties_media_date_time">Pořízeno</string>
     <string name="file_properties_media_coordinates">Souřadnice</string>
     <string name="file_properties_media_coordinates_format">%1$.3f, %2$.3f</string>
     <string name="file_properties_media_address">Lokace</string>
@@ -421,7 +422,7 @@
     <string name="file_properties_image_equipment_format">%1$s %2$s</string>
     <string name="file_properties_image_f_number">Clona</string>
     <string name="file_properties_image_shutter_speed">Rychlost závěrky</string>
-    <string name="file_properties_image_focal_length">Ohnisková vzálenost</string>
+    <string name="file_properties_image_focal_length">Ohnisková vzdálenost</string>
     <string name="file_properties_image_focal_length_format">%1$.2f mm</string>
     <string name="file_properties_image_photographic_sensitivity">Ekvivalent ISO</string>
     <string name="file_properties_image_photographic_sensitivity_format">ISO %1$d</string>
@@ -456,10 +457,10 @@
     <string name="file_properties_apk_requested_permissions">Oprávnění</string>
     <string name="file_properties_apk_requested_permissions_zero">Nebyla vyžádána žádná oprávnění</string>
     <plurals name="file_properties_apk_requested_permissions_positive_format">
-        <item quantity="one">%1$,d požádané oprávnění</item>
-        <item quantity="few">%1$,d požádané oprávnění</item>
-        <item quantity="many">%1$,d požádaných oprávnění</item>
-        <item quantity="other">%1$,d požádaných oprávnění</item>
+        <item quantity="one">%1$,d vyžádané oprávnění</item>
+        <item quantity="few">%1$,d vyžádaná oprávnění</item>
+        <item quantity="many">%1$,d vyžádaných oprávnění</item>
+        <item quantity="other">%1$,d vyžádaných oprávnění</item>
     </plurals>
     <string name="file_properties_apk_signature_digests">Podpisy</string>
     <string name="file_properties_apk_signature_digests_empty">Žádné platné podpisy</string>
@@ -477,6 +478,7 @@
     <string name="storage_add_storage_sftp_server">Server SFTP</string>
     <string name="storage_add_storage_smb_server">Server SMB</string>
     <string name="storage_add_storage_webdav_server">Server WebDAV</string>
+    <string name="storage_add_storage_kra_server">Online úložište KRA</string>
     <string name="storage_edit_device_storage_title">Upravit úložiště zařízení</string>
     <string name="storage_edit_device_storage_name">Název</string>
     <string name="storage_edit_device_storage_path">Cesta</string>
@@ -497,7 +499,7 @@
     <string name="storage_edit_ftp_server_name">Název</string>
     <string name="storage_edit_ftp_server_name_placeholder">Použít název hostitele</string>
     <string name="storage_edit_ftp_server_protocol">Protokol</string>
-    <string name="storage_edit_ftp_server_authentication_type">Oveření</string>
+    <string name="storage_edit_ftp_server_authentication_type">Ověření</string>
     <string-array name="storage_edit_ftp_server_authentication_type_entries">
         <item>Heslo</item>
         <item>Anonymní</item>
@@ -516,7 +518,7 @@
     <string name="storage_edit_sftp_server_title_edit">Upravit server SFTP</string>
     <string name="storage_edit_sftp_server_title_add">Přidat server SFTP</string>
     <string name="storage_edit_sftp_server_host">Název hostitele</string>
-    <string name="storage_edit_sftp_server_host_error_empty">Vložit název hostitele</string>
+    <string name="storage_edit_sftp_server_host_error_empty">Zadat název hostitele</string>
     <string name="storage_edit_sftp_server_host_error_invalid">Neplatný název hostitele</string>
     <string name="storage_edit_sftp_server_port">Port</string>
     <string name="storage_edit_sftp_server_port_error_invalid">Neplatný port</string>
@@ -530,23 +532,37 @@
         <item>Veřejný klíč</item>
     </string-array>
     <string name="storage_edit_sftp_server_username">Uživatelské jméno</string>
-    <string name="storage_edit_sftp_server_username_error_empty">Vložit uživatelské jméno</string>
+    <string name="storage_edit_sftp_server_username_error_empty">Zadat uživatelské jméno</string>
     <string name="storage_edit_sftp_server_password">Heslo</string>
     <string name="storage_edit_sftp_server_private_key">Soukromý klíč</string>
     <string name="storage_edit_sftp_server_private_key_open_file">Otevřít soubor</string>
-    <string name="storage_edit_sftp_server_private_key_error_empty">Vložit soukromý klíč</string>
+    <string name="storage_edit_sftp_server_private_key_error_empty">Zadat soukromý klíč</string>
     <string name="storage_edit_sftp_server_private_key_error_invalid">Neplatný soukromý klíč</string>
     <string name="storage_edit_sftp_server_private_key_password">Heslo soukromého kliče</string>
-    <string name="storage_edit_sftp_server_private_key_password_placeholder">Může zůstat prázné</string>
+    <string name="storage_edit_sftp_server_private_key_password_placeholder">Může zůstat prázdné</string>
     <string name="storage_edit_sftp_server_private_key_password_error_invalid">Neplatné heslo soukromého klíče</string>
     <string name="storage_edit_sftp_server_connect_and_add">Připojit se a přidat</string>
     <string name="storage_edit_sftp_server_add">Přidat</string>
+    <string name="storage_edit_kra_server_title_edit">Upravit KRA API server</string>
+    <string name="storage_edit_kra_server_title_add">Přidat KRA API server</string>
+    <string name="storage_edit_kra_server_host">Název hostitele</string>
+    <string name="storage_edit_kra_server_host_error_empty">Zadat název hostitele</string>
+    <string name="storage_edit_kra_server_port">Port</string>
+    <string name="storage_edit_kra_server_port_placeholder" translatable="false">443</string>
+    <string name="storage_edit_kra_server_port_error_invalid">Neplatný port</string>
+    <string name="storage_edit_kra_server_username">Uživatelské jméno</string>
+    <string name="storage_edit_kra_server_username_error_empty">Zadat uživatelské jméno</string>
+    <string name="storage_edit_kra_server_password">Heslo</string>
+    <string name="storage_edit_kra_server_password_error_empty">Zadat heslo</string>
+    <string name="storage_edit_kra_server_name">Název</string>
+    <string name="storage_edit_kra_server_connect_and_add">Připojit se a přidat</string>
+    <string name="storage_edit_kra_server_add">Přidat</string>
     <string name="storage_add_lan_smb_server_loading">Hledání SMB serverů…</string>
     <string name="storage_add_lan_smb_server_add">Přidat manuálně</string>
     <string name="storage_edit_smb_server_title_edit">Upravit server SMB</string>
     <string name="storage_edit_smb_server_title_add">Přidat server SMB</string>
     <string name="storage_edit_smb_server_host">Název hostitele</string>
-    <string name="storage_edit_smb_server_host_error_empty">Vložit název hostitele</string>
+    <string name="storage_edit_smb_server_host_error_empty">Zadat název hostitele</string>
     <string name="storage_edit_smb_server_host_error_invalid">Neplatný název hostitele</string>
     <string name="storage_edit_smb_server_port">Port</string>
     <string name="storage_edit_smb_server_port_error_invalid">Neplatný port</string>
@@ -561,7 +577,7 @@
         <item>Anonymní</item>
     </string-array>
     <string name="storage_edit_smb_server_username">Uživatelské jméno</string>
-    <string name="storage_edit_smb_server_username_error_empty">Vložit uživatelské jméno</string>
+    <string name="storage_edit_smb_server_username_error_empty">Zadat uživatelské jméno</string>
     <string name="storage_edit_smb_server_password">Heslo</string>
     <string name="storage_edit_smb_server_domain">Doména</string>
     <string name="storage_edit_smb_server_connect_and_add">Připojit se a přidat</string>
@@ -592,10 +608,10 @@
     <string name="storage_edit_webdav_server_connect_and_add">Připojit a přidat</string>
     <string name="storage_edit_webdav_server_add">Přidat</string>
 
-    <string name="navigation_storage_subtitle_format">%1$svolných z %2$s</string>
+    <string name="navigation_storage_subtitle_format">%1$s volných z %2$s</string>
     <string name="navigation_add_storage">Přidat úložiště…</string>
     <string name="navigation_standard_directory_alarms">Budíky</string>
-    <string name="navigation_standard_directory_dcim">DCMI</string>
+    <string name="navigation_standard_directory_dcim">DCIM</string>
     <string name="navigation_standard_directory_documents">Dokumenty</string>
     <string name="navigation_standard_directory_downloads">Stahování</string>
     <string name="navigation_standard_directory_movies">Filmy</string>
@@ -607,7 +623,7 @@
     <string name="navigation_standard_directory_qq">QQ</string>
     <string name="navigation_standard_directory_tim">TIM</string>
     <string name="navigation_standard_directory_wechat">WeChat</string>
-    <string name="navigation_edit_bookmark_directory_title">Založená složka</string>
+    <string name="navigation_edit_bookmark_directory_title">Záložková složka</string>
     <string name="navigation_edit_bookmark_directory_name">Název</string>
     <string name="navigation_edit_bookmark_directory_path">Cesta</string>
     <string name="archive_viewer_title">Prohlížeč archivů</string>
@@ -670,14 +686,14 @@
     </string-array>
     <string name="settings_behavior_title">Chování</string>
     <string name="settings_default_directory_title">Výchozí složka</string>
-    <string name="settings_standard_directories_title">Standartní složky</string>
-    <string name="settings_standard_directories_summary_empty">Nejsou povoleny žádné standartní složky</string>
+    <string name="settings_standard_directories_title">Standardní složky</string>
+    <string name="settings_standard_directories_summary_empty">Nejsou povoleny žádné standardní složky</string>
     <string name="settings_bookmark_directory_screenshots">Snímky obrazovky</string>
-    <string name="settings_bookmark_directories_title">Založené složky</string>
-    <string name="settings_bookmark_directories_summary_empty">Žádné založené složky</string>
+    <string name="settings_bookmark_directories_title">Záložkové složky</string>
+    <string name="settings_bookmark_directories_summary_empty">Žádné záložkové složky</string>
     <string name="settings_root_strategy_title">Režim přístupu root</string>
     <plurals name="settings_root_strategy_message_format">
-        <item quantity="one">Právě probíhá %1$,d souborová operace a změna režimu přístupu root by mohla mít za následek nečekanou chybu. Jste si jisit, že ho chcete změnit nyní?</item>
+        <item quantity="one">Právě probíhá %1$,d souborová operace a změna režimu přístupu root by mohla mít za následek nečekanou chybu. Jste si jisti, že ho chcete změnit nyní?</item>
         <item quantity="few">Právě probíhá %1$,d souborové operace a změna režimu přístupu root by mohla mít za následek nečekanou chybu. Jste si jisti, že ho chcete změnit nyní?</item>
         <item quantity="many">Právě probíhá %1$,d souborových operací a změna režimu přístupu root by mohla mít za následek nečekanou chybu. Jste si jisti, že ho chcete změnit nyní?</item>
         <item quantity="other">Právě probíhá %1$,d souborových operací a změna režimu přístupu root by mohla mít za následek nečekanou chybu. Jste si jisti, že ho chcete změnit nyní?</item>
@@ -704,7 +720,5 @@
     <string name="about_licenses_title">Licence</string>
     <string name="about_privacy_policy_title">Zásady ochrany soukromí</string>
     <string name="about_author_title">Autor</string>
-    <string name="about_author_name_title">Hai Zhang</string>
-    <string name="about_author_github_title">Sledovat na GitHubu</string>
-    <string name="about_author_twitter_title">Sledovat na Twitteru</string>
+    <string name="about_author_credits_title">založené na MaterialFiles od Hai Zhang</string>
 </resources>

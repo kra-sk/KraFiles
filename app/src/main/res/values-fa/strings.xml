@@ -564,7 +564,4 @@
     <string name="about_licenses_title">پروانه‌ها</string>
     <string name="about_privacy_policy_title">سیاست حفظ حریم خصوصی</string>
     <string name="about_author_title">نویسنده</string>
-    <string name="about_author_name_title">Hai Zhang</string>
-    <string name="about_author_github_title">پی‌گیری در گیت‌هاب</string>
-    <string name="about_author_twitter_title">پی‌گیری در توییتر</string>
 </resources>

@@ -670,7 +670,4 @@
     <string name="about_licenses_title">Άδειες</string>
     <string name="about_privacy_policy_title">Πολιτική απορρήτου</string>
     <string name="about_author_title">Συντάκτης</string>
-    <string name="about_author_name_title">Hai Zhang</string>
-    <string name="about_author_github_title">Ακολουθήστε στο GitHub</string>
-    <string name="about_author_twitter_title">Ακολουθήστε στο Twitter</string>
 </resources>
