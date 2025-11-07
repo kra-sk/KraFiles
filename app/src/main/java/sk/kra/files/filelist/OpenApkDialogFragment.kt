@@ -27,10 +27,8 @@ class OpenApkDialogFragment : AppCompatDialogFragment() {
     override fun onCreateDialog(savedInstanceState: Bundle?): Dialog {
         return MaterialAlertDialogBuilder(requireContext(), theme)
             .setMessage(R.string.file_open_apk_message)
-            .setPositiveButton(R.string.install) { _, _ -> listener.installApk(args.file) }
-            // While semantically incorrect, this places the two most expected actions side by side.
-            .setNegativeButton(R.string.view) { _, _ -> listener.viewApk(args.file) }
-            .setNeutralButton(android.R.string.cancel, null)
+            .setPositiveButton(R.string.view) { _, _ -> listener.viewApk(args.file) }
+            .setNegativeButton(android.R.string.cancel, null)
             .create()
     }
 
@@ -44,7 +42,6 @@ class OpenApkDialogFragment : AppCompatDialogFragment() {
     class Args(val file: FileItem) : ParcelableArgs
 
     interface Listener {
-        fun installApk(file: FileItem)
         fun viewApk(file: FileItem)
     }
 }

@@ -14,7 +14,6 @@ import sk.kra.files.app.application
 import sk.kra.files.compat.EnvironmentCompat2
 import sk.kra.files.filelist.FileSortOptions
 import sk.kra.files.filelist.FileViewType
-import sk.kra.files.filelist.OpenApkDefaultAction
 import sk.kra.files.navigation.BookmarkDirectory
 import sk.kra.files.navigation.StandardDirectorySettings
 import sk.kra.files.provider.root.RootStrategy
@@ -167,13 +166,6 @@ object Settings {
         StringSettingLiveData(
             R.string.pref_key_archive_file_name_encoding,
             R.string.pref_default_value_archive_file_name_encoding
-        )
-
-    val OPEN_APK_DEFAULT_ACTION: SettingLiveData<OpenApkDefaultAction> =
-        EnumSettingLiveData(
-            R.string.pref_key_open_apk_default_action,
-            R.string.pref_default_value_open_apk_default_action,
-            OpenApkDefaultAction::class.java
         )
 
     val SHOW_PDF_THUMBNAIL_PRE_28: SettingLiveData<Boolean> = BooleanSettingLiveData(

@@ -1456,23 +1456,6 @@ private fun FileJob.postCopyMoveNotification(
     )
 }
 
-class InstallApkJob(private val file: Path) : FileJob() {
-    override fun run() {
-        open(
-            file, R.string.file_install_apk_from_background_title_format,
-            R.string.file_install_apk_from_background_text
-        ) { file ->
-            val uri = if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.N) {
-                file.fileProviderUri
-            } else {
-                // PackageInstaller only supports file URI before N.
-                Uri.fromFile(file.toFile())
-            }
-            uri.createInstallPackageIntent()
-        }
-    }
-}
-
 class OpenFileJob(
     private val file: Path,
     private val mimeType: MimeType,

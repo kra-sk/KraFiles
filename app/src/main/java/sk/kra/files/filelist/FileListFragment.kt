@@ -1253,30 +1253,7 @@ class FileListFragment : Fragment(), BreadcrumbLayout.Listener, FileListAdapter.
     }
 
     private fun openApk(file: FileItem) {
-        if (!file.isListable) {
-            installApk(file)
-            return
-        }
-        when (Settings.OPEN_APK_DEFAULT_ACTION.valueCompat) {
-            OpenApkDefaultAction.INSTALL -> installApk(file)
-            OpenApkDefaultAction.VIEW -> viewApk(file)
-            OpenApkDefaultAction.ASK -> OpenApkDialogFragment.show(file, this)
-        }
-    }
-
-    override fun installApk(file: FileItem) {
-        val path = file.path
-        val uri = if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.N) {
-            if (!path.isArchivePath) path.fileProviderUri else null
-        } else {
-            // PackageInstaller only supports file URI before N.
-            if (path.isLinuxPath) Uri.fromFile(path.toFile()) else null
-        }
-        if (uri != null) {
-            startActivitySafe(uri.createInstallPackageIntent())
-        } else {
-            FileJobService.installApk(path, requireContext())
-        }
+	    viewApk(file)
     }
 
     override fun viewApk(file: FileItem) {
