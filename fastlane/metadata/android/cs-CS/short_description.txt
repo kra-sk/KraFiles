@@ -1,1 +1,1 @@
-Správce souborů pro Android
+Open source správce souborů

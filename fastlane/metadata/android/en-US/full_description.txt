@@ -1,9 +1,9 @@
-An open source Android file manager.
+Open source file manager for Android
 
 Based on Kai Zhang's Material Files.
 
 Features:
-- Official Android client for kra.sk online storage
+- support for external online storage kra.sk
 - Open source: Lightweight, clean and secure.
 - Material Design: Follows Material Design guidelines, with attention into details.
 - Breadcrumbs: Navigate in the filesystem with ease.

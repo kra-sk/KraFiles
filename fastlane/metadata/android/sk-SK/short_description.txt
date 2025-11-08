@@ -1,1 +1,1 @@
-Správca súborov pre Android
+Open source správca súborov
