@@ -1,12 +1,12 @@
 # KRA Files
 
-[![Android CI status](https://github.com/kra-sk/KraFiles/workflows/Android%20CI/badge.svg)](https://github.com/kra-sk/KraFiles/actions) [![GitHub release](https://img.shields.io/github/v/release/kra/KraFiles)](https://github.com/kra-sk/KraFiles/releases) [![License](https://img.shields.io/github/license/kra-sk/KraFiles?color=blue)](LICENSE)
+[![Android CI status](https://github.com/kra-sk/KraFiles/workflows/Android%20CI/badge.svg)](https://github.com/kra-sk/KraFiles/actions) [![GitHub release](https://img.shields.io/github/v/release/kra-sk/KraFiles)](https://github.com/kra-sk/KraFiles/releases) [![License](https://img.shields.io/github/license/kra-sk/KraFiles?color=blue)](LICENSE)
 
 Open source file management application for Android with support for [kra.sk](https://kra.sk) online storage.
 
 Based on the open source application Material Files by Kai Zhang ([GitHub page](https://github.com/zhanghai/MaterialFiles))
 
-[<img alt="Get it on Google Play" src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png" width="240">](https://play.google.com/store/apps/details?id=sk.kra.files) [<img alt="Get it on GitHub" src="https://raw.githubusercontent.com/Kunzisoft/Github-badge/main/get-it-on-github.png" width="240">](https://github.com/kra-sk/KraFiles/releases/latest/download/KraFiles.apk)
+[<img alt="Get it on Google Play" src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png" width="240">](https://play.google.com/store/apps/details?id=sk.kra.files) [<img alt="Get it on GitHub" src="https://raw.githubusercontent.com/Kunzisoft/Github-badge/main/get-it-on-github.png" width="240">](https://github.com/kra-sk/KraFiles/releases/latest)
 
 ## Features
 
